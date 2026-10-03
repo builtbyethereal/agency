@@ -1,63 +1,60 @@
-# Pixelforge — Creative Studio Portfolio
+# Studio Null — Creative Agency Portfolio
 
-A bold, colorful, multi-page portfolio website for a fictional creative agency.
-Built with Vite, React 18, TypeScript, Tailwind CSS v3, React Router v6,
-Framer Motion, and React Three Fiber.
+An editorial, monochrome, high-contrast portfolio site for a fictional creative
+agency working in branding, visual identity and editorial direction. Built with
+Vite, React 18, TypeScript, Tailwind CSS v3, React Router v6 and Framer Motion.
 
-Pixelforge is a made-up studio that does branding, visual identity, motion,
-illustration, and web. The site is a playground: big type, sticker-style cards,
-animated doodles, and real 3D objects you can poke at.
+The visual language is deliberately severe: oversized display typography,
+hairline rules, grayscale imagery that gains a whisper of color on hover, and
+motion that is felt more than seen.
 
 ---
 
-## Table of contents
+## Table of Contents
 
 - [Stack](#stack)
-- [Requirements](#requirements)
-- [Getting started](#getting-started)
+- [Quick Start](#quick-start)
 - [Scripts](#scripts)
-- [Project structure](#project-structure)
-- [Design system](#design-system)
-- [Content model](#content-model)
-- [3D scenes](#3d-scenes)
+- [Project Structure](#project-structure)
+- [Design System](#design-system)
+- [Routing](#routing)
+- [Data Models](#data-models)
+- [Content](#content)
 - [Accessibility](#accessibility)
 - [Performance](#performance)
-- [Routes](#routes)
-- [Customizing](#customizing)
-- [Browser support](#browser-support)
+- [Customization](#customization)
+- [Deployment](#deployment)
+- [Credits](#credits)
 - [License](#license)
 
 ---
 
 ## Stack
 
-| Layer          | Choice                                              |
-| -------------- | --------------------------------------------------- |
-| Build tool     | Vite 5                                              |
-| Framework      | React 18 + TypeScript (strict)                      |
-| Styling        | Tailwind CSS v3 + PostCSS + Autoprefixer            |
-| Routing        | React Router v6                                     |
-| Animation      | Framer Motion, GSAP (available), lottie-react (available) |
-| 3D             | three.js via `@react-three/fiber` + `@react-three/drei` + `@react-three/rapier` |
-| Icons          | lucide-react                                        |
-| Linting        | ESLint + Prettier                                   |
+| Layer | Technology |
+|---|---|
+| Build tool | [Vite](https://vitejs.dev/) 5 |
+| Framework | [React](https://react.dev/) 18 |
+| Language | [TypeScript](https://www.typescriptlang.org/) 5 (strict) |
+| Styling | [Tailwind CSS](https://tailwindcss.com/) v3 + PostCSS + Autoprefixer |
+| Routing | [React Router](https://reactrouter.com/) v6 (lazy-loaded routes) |
+| Animation | [Framer Motion](https://www.framer.com/motion/) 11 |
+| Icons | [Lucide React](https://lucide.dev/) |
+| SEO | [React Helmet Async](https://github.com/staylor/react-helmet-async) |
+| Lint / Format | ESLint + Prettier |
+| Fonts | Anton (display) + Space Grotesk (body) via Google Fonts |
 
 ---
 
-## Requirements
+## Quick Start
 
-- **Node.js** 18.18+ (20 LTS recommended)
-- **npm** 9+ (or pnpm / yarn — adjust commands accordingly)
-- A modern browser with WebGL2 for the 3D scenes
-  (Chrome, Edge, Firefox, Safari 16+)
+### Prerequisites
 
----
+- Node.js **18.18+** or **20+**
+- npm 9+ (or pnpm / yarn)
 
-## Getting started
+### Install
 
 ```bash
-# 1. Install dependencies
+# Clone or unzip the project, then:
 npm install
-
-# 2. Start the dev server
-npm run dev
